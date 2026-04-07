@@ -26,4 +26,25 @@ int main()
     cin >> datamu [4];
     cout << endl;
 
+    //Menampilkan data dengan perintah satu persatu
+    cout << "data pertama = " << datamu[0] << endl;
+    cout << "data kedua = " << datamu[1] << endl;
+    cout << "data ketiga = " << datamu[2] << endl;
+    cout << "data keempat = " << datamu[3] << endl;
+    cout << "data kelima = " << datamu[4] << endl;
+    cout << endl;
+
+    cout << "Input Array Menggunakan For" << endl;
+    //mengisi data melalui perulangan
+     for (int i = 0; i <= 4; i++)
+    {
+        cout << "Isikan data ke-" << (i + 1) << " : ";
+        cin >> datamu[i];
+    }
+
+    cout << endl;
+
+    cout << "Tampil Data Array Menggunakan For" << endl;
+    
+
 }
